@@ -1,4 +1,4 @@
-package debuggingWorkshop;
+package workshop4;
 
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;

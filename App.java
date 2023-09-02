@@ -1,4 +1,4 @@
-package debuggingWorkshop;
+package workshop4;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

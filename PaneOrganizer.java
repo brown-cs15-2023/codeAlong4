@@ -1,4 +1,4 @@
-package debuggingWorkshop;
+package workshop4;
 
 import javafx.event.ActionEvent;
 import javafx.geometry.Pos;
@@ -27,12 +27,14 @@ public class PaneOrganizer {
     Button b1 = new Button("Move Left!");
     Button b2 = new Button("Move Right!");
     Button b3 = new Button("Arrays!");
-    buttonPane.getChildren().addAll(b1, b2, b3);
+    Button b4 = new Button ("ArrayLists!");
+    buttonPane.getChildren().addAll(b1, b2, b3, b4);
     buttonPane.setSpacing(Constants.BUTTON_SPACING);
     buttonPane.setAlignment(Pos.CENTER);
     b1.setOnAction((ActionEvent e) -> this.alien.moveLeft());
     b2.setOnAction((ActionEvent e) -> this.alien.moveRight());
     b3.setOnAction((ActionEvent e) -> a.printArray());
+    b4.setOnAction((ActionEvent e) -> a.changeArrayList());
   }
 
   public Pane getRoots() {

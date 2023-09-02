@@ -1,12 +1,19 @@
-package debuggingWorkshop;
+package workshop4;
+
+import java.util.ArrayList;
 
 public class ArrayExample {
 
   private int[] numbers;
+  private ArrayList<String> coolWords;
 
   public ArrayExample(){
     this.numbers = new int[10];
     this.populateArray();
+    this.coolWords = new ArrayList<>();
+    this.coolWords.add("Andy");
+    this.coolWords.add("Django");
+    this.coolWords.add("CodeAlong");
   }
 
   private void populateArray() {
@@ -21,4 +28,19 @@ public class ArrayExample {
     }
   }
 
+  public void changeArrayList() {
+    for (String word : this.coolWords) {
+      System.out.println(word);
+      if (word.equals("Andy")) {
+        this.coolWords.remove(word);
+      }
+    }
+    for (int i = 0; i < this.coolWords.size(); i++) {
+      String word = this.coolWords.get(i);
+      System.out.println(word);
+      if (word.equals("Andy")) {
+        this.coolWords.remove(word);
+      }
+    }
+  }
 }

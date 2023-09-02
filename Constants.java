@@ -1,4 +1,4 @@
-package debuggingWorkshop;
+package workshop4;
 
 public class Constants {
 
