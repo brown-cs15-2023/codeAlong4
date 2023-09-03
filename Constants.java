@@ -1,4 +1,4 @@
-package workshop4;
+package codeAlong4;
 
 public class Constants {
 

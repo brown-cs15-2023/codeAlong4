@@ -1,4 +1,4 @@
-package workshop4;
+package codeAlong4;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

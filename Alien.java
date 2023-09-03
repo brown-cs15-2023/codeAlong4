@@ -1,4 +1,4 @@
-package workshop4;
+package codeAlong4;
 
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
