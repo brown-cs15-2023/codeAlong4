@@ -35,12 +35,5 @@ public class ArrayExample {
         this.coolWords.remove(word);
       }
     }
-    for (int i = 0; i < this.coolWords.size(); i++) {
-      String word = this.coolWords.get(i);
-      System.out.println(word);
-      if (word.equals("Andy")) {
-        this.coolWords.remove(word);
-      }
-    }
   }
 }
