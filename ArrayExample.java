@@ -23,13 +23,14 @@ public class ArrayExample {
   }
 
   public void printArray() {
-    for(int i = 0; i <= 10; i++) {
+    for(int i = 0; i < 10; i++) {
       System.out.println("numbers[" + i + "] is " + this.numbers[i]);
     }
   }
 
   public void changeArrayList() {
-    for (String word : this.coolWords) {
+    for (int i = 0; i < this.coolWords.size(); i++) {
+      String word = this.coolWords.get(i);
       System.out.println(word);
       if (word.equals("Andy")) {
         this.coolWords.remove(word);
